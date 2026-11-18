@@ -1,0 +1,44 @@
+## .NET
+bin/
+obj/
+publish/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+## NuGet
+*.nupkg
+**/packages/
+*.nuget.props
+*.nuget.targets
+
+## VS / VS Code
+.vs/
+.vscode/
+*.swp
+*~
+
+## Rider
+.idea/
+
+## OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+## Secrets — never commit passwords
+appsettings.Development.json
+
+## EF Core
+*.db
+*.db-shm
+*.db-wal
